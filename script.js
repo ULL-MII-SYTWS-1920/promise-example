@@ -6,7 +6,6 @@ if(window.Promise) {
         let request = new XMLHttpRequest();
 
         request.open('GET', 'http://api.icndb.com/jokes/random');
-        //request.open('GET', 'http://api.icndb.cam/');
         
         request.onload = function() {
           if (request.status == 200) {
